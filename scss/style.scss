@@ -1,0 +1,117 @@
+body {
+  background: #e43b3b;
+  color: white;
+  font-family: 'Mulish', sans-serif;
+}
+
+.bg-dark {
+  background-color: rgb(160, 159, 156) !important;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #e43b3b;
+  opacity: 0.9;
+  background: #fff;
+}
+
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.sandbox-logo {
+  color: #ff2b2b;
+  font-weight: bold;
+}
+
+.bg-primary {
+  background-color: #e43b3b !important;
+}
+
+.bg-light {
+  background-color: black !important;
+}
+
+#home-section {
+  background: url(../img/nodeul_banner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#about-head-section .py-5 {
+  padding-top: 5.5rem !important;
+  padding-bottom: 5.5rem !important;
+}
+
+#about-section .info-header {
+  margin: auto;
+  border-bottom: 1px white solid;
+}
+
+#mentors-head-section .fab {
+  color: #e43b3b;
+}
+
+#mentors-head-section .info-header {
+  width: 75%;
+  margin: auto;
+  border-bottom: 1px grey solid;
+}
+
+#mentors-head-section .card:hover {
+  background-color: #e43b3b;
+  color: white;
+
+  h5 {
+    color: white !important;
+  }
+
+  .fab {
+    color: white;
+  }
+}
+
+#main-footer .fab {
+  color: white !important;
+}
+
+#main-footer .fab:hover {
+  font-size: 1.5rem !important;
+}
+
+#main-footer .input-group {
+  width: 75% !important;
+}
+
+@media (max-width: 576px) {
+  #home-section .d-flex {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #home-section .display-4 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  #mentors-header-section {
+    display: none !important;
+  }
+}
